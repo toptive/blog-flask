@@ -1,0 +1,14 @@
+{
+  "name": "blog-flask",
+  "version": "1.0.0",
+  "description": "``` python -m venv en source env/bin/activate pip install -r \"requirements.txt\" ```",
+  "main": "index.js",
+  "scripts": {
+    "create-css": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
